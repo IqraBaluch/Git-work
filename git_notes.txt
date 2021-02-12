@@ -1,0 +1,19 @@
+$ git --version  #to check version of git
+
+$ git config --global user.name #To check the user name 
+$ git config --global user.name "Iqra" #to set user name
+
+$ git config --global user.email #to check mail
+$ git config --global user.email "gmail.com"#to set mail
+
+$ git init #initialize git
+
+$ git status #check status of files <tracking/ untracking> or <Stagging / unstagging>
+
+$ git add <filename> #to add file name
+
+$ git commit -m "message about file" #to put some message about file
+
+$ git remote add origin <link> #to set the origin globaly on git / to make a container on git to store files
+
+$ git push -u origin master #to push the created files on git
