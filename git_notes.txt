@@ -10,7 +10,9 @@ $ git init #initialize git
 
 $ git status #check status of files <tracking/ untracking> or <Stagging / unstagging>
 
-$ git add <filename> #to add file name
+$ git touch <filename> #to create file
+
+$ git add <filename> #to add file name (git add -A)
 
 $ git commit -m "message about file" #to put some message about file
 
